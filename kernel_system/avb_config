@@ -1,0 +1,4 @@
+avb_version=2.0
+algorithm_type=SHA256_RSA2048
+rollback_index=0
+key=avb.pem

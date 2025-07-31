@@ -1,0 +1,4 @@
+verity_version=1.0
+hash_algorithm=sha256
+block_size=4096
+salt=00000000000000000000000000000000

@@ -1,0 +1,7 @@
+pixel_4
+pixel_5
+pixel_6
+xiaomi
+oneplus
+fairphone
+tun_phone 

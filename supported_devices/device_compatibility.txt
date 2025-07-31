@@ -1,0 +1,7 @@
+Pixel 4: Official
+Pixel 5: Official
+Pixel 6: Official
+Xiaomi: Community
+OnePlus: Community
+Fairphone: Community
+TUN Phone: Development 

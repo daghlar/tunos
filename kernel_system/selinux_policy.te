@@ -1,0 +1,7 @@
+policy_module(tunos, 1.0)
+type tunos_exec, exec_type, file_type, system_file_type;
+init_daemon_domain(tunos)
+allow tunos_exec self:process transition;
+allow tunos_exec self:capability { dac_override chown fowner setgid setuid setpcap sys_admin sys_boot sys_chroot sys_nice sys_resource sys_time sys_tty_config };
+allow tunos_exec self:netlink_kobject_uevent_socket create_socket_perms;
+allow tunos_exec self:kernel { read write execute };
